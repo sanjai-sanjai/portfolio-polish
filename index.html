@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjai Ragunath — UI/UX Designer &amp; Full-Stack AI Developer</title>
+  <meta name="description" content="Portfolio of Sanjai Ragunath — UI/UX Designer and Mechatronics Engineer building full-stack AI web products.">
+  <meta name="author" content="Sanjai Ragunath">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="#top" class="nav-brand" aria-label="Sanjai Ragunath Home">
+        <div class="brand-badge">SR</div>
+        <div class="brand-text">
+          <span class="brand-name">Sanjai Ragunath</span>
+          <span class="brand-role-pill">Designer &times; Dev</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#metrics" class="nav-link">Impact</a></li>
+          <li><a href="#methodology" class="nav-link">Methodology</a></li>
+          <li><a href="#work" class="nav-link">Projects</a></li>
+          <li><a href="#engineering" class="nav-link">Engineering</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-nav">
+          <span>Let's Talk</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO SECTION -->
+    <section class="section-padding hero-section" id="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge-pill status-online">
+            <span class="pulse-dot"></span>
+            <span>Available for Full-Stack &amp; AI Roles &middot; Coimbatore / Remote</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Designing &amp; Engineering <span class="gradient-text">Resilient Systems</span> That Scale
+          </h1>
+
+          <p class="hero-subhead">
+            I am a <strong>UI/UX Designer</strong> and <strong>Mechatronics Engineer</strong> crafting full-stack AI web products. I combine systems-level engineering with intuitive interface design to make complex software effortless to use.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              <span>Explore Selected Work</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </a>
+
+            <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="btn btn-ghost">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub Profile</span>
+            </a>
+
+            <button class="btn btn-ghost" onclick="copyEmail()" title="Copy email address">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span>Copy Email</span>
+            </button>
+          </div>
+
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <span>SKCET Mechatronics '28</span>
+            </div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              <span>500+ Daily Users Handled</span>
+            </div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+              <span>1st Prize Best Innovation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Neat Profile Card -->
+        <div class="hero-card-wrap">
+          <div class="pro-profile-card">
+            <div class="profile-card-image-box">
+              <img src="assets/images/sanjai-hero.png" alt="Sanjai Ragunath" class="profile-photo">
+            </div>
+            <div class="profile-card-meta">
+              <div class="pro-meta-left">
+                <h4>Sanjai Ragunath</h4>
+                <p>UI/UX &amp; Full-Stack AI Developer</p>
+              </div>
+              <div class="status-indicator-badge">
+                <span class="pulse-dot"></span>
+                <span>Active</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS & IMPACT (Reference Image 1) -->
+    <section class="section-padding metrics-section" id="metrics">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">01 &middot; Impact &amp; Metrics</div>
+          <h2 class="section-title">Measurable Technical Velocity</h2>
+          <p class="section-desc">
+            Transforming product ideas into scalable code with architectural discipline and verified user impact.
+          </p>
+        </div>
+
+        <!-- Top Main Stat Block -->
+        <div class="metrics-main-block">
+          <div class="metrics-grid-4">
+            <div class="metric-column">
+              <div class="metric-value"><span class="stat-number" data-target="10">0</span><span class="accent-symbol">+</span></div>
+              <div class="metric-title">Projects Built</div>
+              <p class="metric-subtitle">From concept to functional code</p>
+            </div>
+
+            <div class="metric-column">
+              <div class="metric-value"><span class="stat-number" data-target="5">0</span><span class="accent-symbol">+</span></div>
+              <div class="metric-title">Core Tech Stacks</div>
+              <p class="metric-subtitle">Frontend, Backend &amp; Design tools</p>
+            </div>
+
+            <div class="metric-column">
+              <div class="metric-value"><span class="stat-number" data-target="3">0</span><span class="accent-symbol">+</span></div>
+              <div class="metric-title">Major Products</div>
+              <p class="metric-subtitle">AI &amp; Full-Stack Web Applications</p>
+            </div>
+
+            <div class="metric-column">
+              <div class="metric-value infinity-symbol" title="Infinite Curiosity">&infin;</div>
+              <div class="metric-title">Ideas &amp; Curiosity</div>
+              <p class="metric-subtitle">Continuous drive to build better</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom 3 Cards (Ref 1) -->
+        <div class="metrics-tri-cards">
+          <div class="metric-subcard">
+            <div class="subcard-icon">&#127942;</div>
+            <div class="subcard-content">
+              <h4>Hackathons &amp; Expos</h4>
+              <p>Participating in product builds &amp; rapid prototyping events with multiple 1st prize accolades.</p>
+            </div>
+          </div>
+
+          <div class="metric-subcard">
+            <div class="subcard-icon">&#128220;</div>
+            <div class="subcard-content">
+              <h4>Certifications &amp; Research</h4>
+              <p>UI/UX principles, Full-Stack development, Industry 4.0 paper plant automation &amp; AI tools.</p>
+            </div>
+          </div>
+
+          <div class="metric-subcard highlighted">
+            <div class="subcard-icon">&#128188;</div>
+            <div class="subcard-content">
+              <h4>Freelance &amp; Collaboration</h4>
+              <p>Delivering intuitive digital solutions for clients, high-growth startups &amp; distributed teams.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METHODOLOGY PIPELINE (Reference Image 2) -->
+    <section class="section-padding methodology-section" id="methodology">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">02 &middot; Methodology</div>
+          <h2 class="section-title">From Problem to Product</h2>
+          <p class="section-desc">
+            An integrated 6-stage lifecycle uniting user research, rapid prototyping, and engineering rigor to build resilient applications. Click any stage to inspect deliverables.
+          </p>
+        </div>
+
+        <div class="methodology-block">
+          <div class="method-steps-row">
+            <!-- 01 Discover -->
+            <div class="method-step-item" data-step="0">
+              <span class="step-number-tag">01</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+              <h3 class="step-name">Discover</h3>
+              <p class="step-summary">Understand users, conduct stakeholder interviews, map journey pain points, and define business goals.</p>
+            </div>
+
+            <!-- 02 Define -->
+            <div class="method-step-item" data-step="1">
+              <span class="step-number-tag">02</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <h3 class="step-name">Define</h3>
+              <p class="step-summary">Identify core friction points, articulate problem statements, and define technical product requirements.</p>
+            </div>
+
+            <!-- 03 Design -->
+            <div class="method-step-item" data-step="2">
+              <span class="step-number-tag">03</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <h3 class="step-name">Design</h3>
+              <p class="step-summary">Create intuitive user flows, structured wireframes, accessible design systems, and pixel-perfect UI screens.</p>
+            </div>
+
+            <!-- 04 Prototype -->
+            <div class="method-step-item" data-step="3">
+              <span class="step-number-tag">04</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+              <h3 class="step-name">Prototype</h3>
+              <p class="step-summary">Build clickable interactive prototypes in Figma to test usability, refine micro-interactions, and validate ideas.</p>
+            </div>
+
+            <!-- 05 Develop (Active in Reference) -->
+            <div class="method-step-item active" data-step="4">
+              <span class="step-number-tag">05</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="step-name">Develop</h3>
+              <p class="step-summary">Convert validated designs into clean, responsive frontend code, scalable backend APIs, and efficient database schemas.</p>
+            </div>
+
+            <!-- 06 Launch & Improve -->
+            <div class="method-step-item" data-step="5">
+              <span class="step-number-tag">06</span>
+              <div class="step-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <h3 class="step-name">Launch &amp; Improve</h3>
+              <p class="step-summary">Test with end-users, deploy to cloud infrastructure, monitor analytics, and iteratively optimize performance.</p>
+            </div>
+          </div>
+
+          <!-- Interactive Detail Drawer -->
+          <div class="method-detail-drawer" id="methodDetailDrawer">
+            <!-- Dynamically populated by script.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK / CASE STUDIES (Reference Image 3) -->
+    <section class="section-padding work-section" id="work">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">03 &middot; Selected Work</div>
+          <h2 class="section-title">Featured Products &amp; Case Studies</h2>
+          <p class="section-desc">
+            Shipped applications designed for clarity, high conversion, and clean code architecture.
+          </p>
+        </div>
+
+        <div class="project-filters">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="ai">AI &amp; Assistive</button>
+          <button class="filter-tab" data-filter="design">Product Design</button>
+          <button class="filter-tab" data-filter="fullstack">Full-Stack Web</button>
+        </div>
+
+        <div class="projects-stack">
+
+          <!-- Project 1: Sana AI -->
+          <article class="case-study-card" data-cat="ai fullstack design">
+            <div class="case-study-visual">
+              <img src="assets/images/sana-mockup.jpg" alt="Sana AI Mockup" class="case-study-mockup" loading="lazy">
+            </div>
+            <div class="case-study-content">
+              <div>
+                <div class="case-tags-row">
+                  <span class="case-tag">AI/ML</span>
+                  <span class="case-tag">UI/UX</span>
+                  <span class="case-tag">TypeScript</span>
+                  <span class="case-tag">EdTech</span>
+                </div>
+                <h3 class="case-title">Sana AI &mdash; Learning Companion</h3>
+                <p class="case-desc">
+                  A student-focused mobile &amp; web application engineered around AI study assistance &mdash; revision flows, Pomodoro focus sessions, curriculum roadmap generation, and adaptive connectors.
+                </p>
+
+                <div class="breakdown-box">
+                  <div>
+                    <strong class="design-label">Design:</strong>
+                    User-centered learning flows, dark-mode cognitive load reduction, interactive roadmap connectors, and habit-tracking micro-interactions.
+                  </div>
+                  <div>
+                    <strong class="dev-label">Development:</strong>
+                    React, TypeScript, Vite, Tailwind CSS, LocalStorage caching, Vercel edge deployment, and responsive PWA offline support.
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-actions">
+                <a href="https://sanaaifinal.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  <span>Open Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="btn btn-ghost btn-sm" onclick="openLivePreview('https://sanaaifinal.vercel.app/')">
+                  Live Preview
+                </button>
+                <a href="https://github.com/sanjai-sanjai/Sana-Ai--All-working" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: INAI Connect (Award Winner) -->
+          <article class="case-study-card reversed" data-cat="ai design">
+            <div class="case-study-visual">
+              <img src="assets/images/inai-mockup.jpg" alt="INAI Connect Mockup" class="case-study-mockup" loading="lazy">
+            </div>
+            <div class="case-study-content">
+              <div>
+                <div class="case-tags-row">
+                  <span class="case-tag award">&#127942; 1st Prize, Best Innovation</span>
+                  <span class="case-tag">Accessibility</span>
+                  <span class="case-tag">AI Vision</span>
+                </div>
+                <h3 class="case-title">INAI &mdash; Connect (இணை)</h3>
+                <p class="case-desc">
+                  An accessibility-first AI companion uniting visual, hearing, and speech assistance into one adaptive interface &mdash; real-time environmental reading, voice waveforms, sign language translation, and instant emergency SOS.
+                </p>
+
+                <div class="breakdown-box">
+                  <div>
+                    <strong class="design-label">Design:</strong>
+                    WCAG AAA contrast adherence, tactile haptic feedback cues, emergency single-tap trigger architecture, and intuitive layout hierarchy.
+                  </div>
+                  <div>
+                    <strong class="dev-label">Development:</strong>
+                    Web Speech API, Computer Vision pipeline, PWA offline support, and adaptive layout engine.
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-actions">
+                <a href="https://first-version-1.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  <span>Open Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="btn btn-ghost btn-sm" onclick="openLivePreview('https://first-version-1.vercel.app/')">
+                  Live Preview
+                </button>
+                <a href="https://github.com/sanjai-sanjai/first-version" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: PlaynLearn (Reference 3 Match) -->
+          <article class="case-study-card" data-cat="fullstack design">
+            <div class="case-study-visual">
+              <img src="assets/images/playnlearn-mockup.jpg" alt="PlaynLearn App Mockup" class="case-study-mockup" loading="lazy">
+            </div>
+            <div class="case-study-content">
+              <div>
+                <div class="case-tags-row">
+                  <span class="case-tag">UI/UX</span>
+                  <span class="case-tag">Full-Stack</span>
+                  <span class="case-tag">EdTech</span>
+                  <span class="case-tag">Gamification</span>
+                </div>
+                <h3 class="case-title">PlaynLearn &mdash; Gamified Learning Platform</h3>
+                <p class="case-desc">
+                  A role-based learning platform that combines interactive education, gamified learning, real-world tasks, and reward-based engagement for students, teachers, and parents.
+                </p>
+
+                <div class="breakdown-box">
+                  <div>
+                    <strong class="design-label">Design:</strong>
+                    User-centered learning flows, interactive subject experiences, task dashboards, progress tracking, and reward-focused interactions.
+                  </div>
+                  <div>
+                    <strong class="dev-label">Development:</strong>
+                    React, TypeScript, Vite, Tailwind CSS, Supabase, PWA, role-based routing, interactive learning modules, and reward workflows.
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-actions">
+                <a href="https://playnlearn-tau.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  <span>Open Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="btn btn-ghost btn-sm" onclick="openLivePreview('https://playnlearn-tau.vercel.app/')">
+                  Live Preview
+                </button>
+                <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Cube AI Predictive Suite -->
+          <article class="case-study-card reversed" data-cat="ai">
+            <div class="case-study-visual">
+              <img src="assets/images/cubeai-mockup.jpg" alt="Cube AI Predictive Dashboard Mockup" class="case-study-mockup" loading="lazy">
+            </div>
+            <div class="case-study-content">
+              <div>
+                <div class="case-tags-row">
+                  <span class="case-tag">Industry 4.0</span>
+                  <span class="case-tag">IoT Telemetry</span>
+                  <span class="case-tag">Python &amp; ML</span>
+                </div>
+                <h3 class="case-title">Cube AI &mdash; Industrial Predictive Maintenance</h3>
+                <p class="case-desc">
+                  AI-powered predictive maintenance and real-time machine telemetry suite engineered for paper manufacturing plants &mdash; tracking vibration signatures, bearing wear, and estimating Remaining Useful Life (RUL).
+                </p>
+
+                <div class="breakdown-box">
+                  <div>
+                    <strong class="design-label">Design:</strong>
+                    High-density operational telemetry dashboard, instant emergency triage indicators, and responsive touch-screen shop-floor displays.
+                  </div>
+                  <div>
+                    <strong class="dev-label">Development:</strong>
+                    Python, TensorFlow/Keras predictive logic, automated sensor ingestion pipelines, reducing manual plant oversight by 20%.
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-actions">
+                <a href="#experience" class="btn btn-primary btn-sm">
+                  <span>View Experience Record</span>
+                </a>
+                <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub Profile &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Vibe Editors -->
+          <article class="case-study-card" data-cat="fullstack design">
+            <div class="case-study-visual">
+              <img src="assets/images/vibe-mockup.jpg" alt="Vibe Editors Agency Mockup" class="case-study-mockup" loading="lazy">
+            </div>
+            <div class="case-study-content">
+              <div>
+                <div class="case-tags-row">
+                  <span class="case-tag">Agency Portfolio</span>
+                  <span class="case-tag">Video Production</span>
+                  <span class="case-tag">Frontend</span>
+                </div>
+                <h3 class="case-title">Vibe Editors &mdash; Creative Agency Platform</h3>
+                <p class="case-desc">
+                  End-to-end client showcase and service portal engineered for Vibe Editors creative video agency &mdash; interactive video timeline previews, dark cinematic brand identity, and client inquiry intake pipelines.
+                </p>
+
+                <div class="breakdown-box">
+                  <div>
+                    <strong class="design-label">Design:</strong>
+                    Cinematic dark visual language, custom timeline scrubber widgets, video reel lightbox, and streamlined inquiry funnels.
+                  </div>
+                  <div>
+                    <strong class="dev-label">Development:</strong>
+                    Modern JavaScript, CSS Grid layouts, optimized media delivery, and Vercel edge deployment.
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-actions">
+                <a href="https://vibe-editors-portfolio-psi.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  <span>Open Live Site</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="btn btn-ghost btn-sm" onclick="openLivePreview('https://vibe-editors-portfolio-psi.vercel.app/')">
+                  Live Preview
+                </button>
+                <a href="https://github.com/sanjai-sanjai/vibe-editors-portfolio" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGINEERING & GITHUB SHOWCASE (Reference Image 4) -->
+    <section class="section-padding engineering-section" id="engineering">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">&lt;/&gt; &middot; Engineering</div>
+          <h2 class="section-title">Building Beyond the Interface</h2>
+          <p class="section-desc">
+            Clean code architecture, modular component structure, well-documented REST APIs, and active version control. Live GitHub data from <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" style="color:var(--accent-cyan);text-decoration:underline;">@sanjai-sanjai</a>.
+          </p>
+        </div>
+
+        <div class="engineering-layout">
+
+          <!-- Left: Developer Profile & Activity Card (Ref 4) -->
+          <div class="github-badge-card">
+            <div class="github-user-row">
+              <img src="assets/images/sanjai-cutout.png?v=4" alt="Sanjai" class="github-avatar">
+              <div class="github-meta">
+                <h4>Sanjai Ragunath</h4>
+                <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener">@sanjai-sanjai</a>
+                <p class="github-bio">UI/UX Designer &times; Full-Stack &amp; AI Developer &middot; Building user-centered AI web apps.</p>
+              </div>
+            </div>
+
+            <!-- Language Progress Bar (Ref 4) -->
+            <div class="lang-breakdown">
+              <div class="lang-bar">
+                <div class="lang-seg py" title="Python: 38%"></div>
+                <div class="lang-seg ts" title="TypeScript: 28%"></div>
+                <div class="lang-seg re" title="React: 18%"></div>
+                <div class="lang-seg js" title="JavaScript: 10%"></div>
+                <div class="lang-seg ch" title="CSS/HTML: 6%"></div>
+              </div>
+
+              <div class="lang-keys">
+                <div class="lang-key-item"><span class="lang-dot" style="background:#3572A5;"></span><span>Python</span></div>
+                <div class="lang-key-item"><span class="lang-dot" style="background:#3178C6;"></span><span>TypeScript</span></div>
+                <div class="lang-key-item"><span class="lang-dot" style="background:#38BDF8;"></span><span>React</span></div>
+                <div class="lang-key-item"><span class="lang-dot" style="background:#F7DF1E;"></span><span>JavaScript</span></div>
+                <div class="lang-key-item"><span class="lang-dot" style="background:#E34F26;"></span><span>CSS/HTML</span></div>
+              </div>
+            </div>
+
+            <!-- Contributions & Commit Activity (Ref 4) -->
+            <div class="heatmap-card">
+              <div class="heatmap-header">
+                <strong>Contributions &amp; Commit Activity</strong>
+                <span class="heatmap-status-pill">Active Builder</span>
+              </div>
+
+              <div class="heatmap-cells-grid" id="heatmapGrid">
+                <!-- Populated via script.js -->
+              </div>
+
+              <div class="heatmap-caption">
+                Connected with Git version control and modern CI/CD pipelines.
+              </div>
+            </div>
+
+            <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="btn btn-ghost" style="width:100%; justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>Explore GitHub Profile &rarr;</span>
+            </a>
+          </div>
+
+          <!-- Right: Featured Repositories List (Ref 4) -->
+          <div class="repos-stack">
+
+            <div class="clean-repo-card">
+              <div class="repo-card-top">
+                <a href="https://github.com/sanjai-sanjai/Sana-Ai--All-working" target="_blank" rel="noopener" class="repo-title-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                  <span>Sana-Ai--All-working</span>
+                </a>
+                <span class="repo-privacy-pill">Public</span>
+              </div>
+              <p>AI-powered student learning companion featuring study roadmap generators, Pomodoro focus trackers, and adaptive revision algorithms.</p>
+              <div class="repo-card-footer">
+                <div class="repo-footer-item"><span class="lang-dot" style="background:#3178C6;"></span><span>TypeScript</span></div>
+                <div class="repo-footer-item"><span>&star; 24</span></div>
+                <div class="repo-footer-item"><span>&#9432; 8</span></div>
+              </div>
+            </div>
+
+            <div class="clean-repo-card">
+              <div class="repo-card-top">
+                <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="repo-title-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                  <span>cubeai-predictive-maintenance</span>
+                </a>
+                <span class="repo-privacy-pill">Public</span>
+              </div>
+              <p>AI-powered industrial predictive maintenance platform featuring machine health monitoring, vibration analytics, and TensorFlow RUL estimation.</p>
+              <div class="repo-card-footer">
+                <div class="repo-footer-item"><span class="lang-dot" style="background:#3572A5;"></span><span>Python / React</span></div>
+                <div class="repo-footer-item"><span>&star; 19</span></div>
+                <div class="repo-footer-item"><span>&#9432; 5</span></div>
+              </div>
+            </div>
+
+            <div class="clean-repo-card">
+              <div class="repo-card-top">
+                <a href="https://github.com/sanjai-sanjai/vibe-editors-portfolio" target="_blank" rel="noopener" class="repo-title-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                  <span>vibe-editors-portfolio</span>
+                </a>
+                <span class="repo-privacy-pill">Public</span>
+              </div>
+              <p>High-performance agency portfolio platform built with responsive CSS, interactive video timeline preview components, and inquiry workflows.</p>
+              <div class="repo-card-footer">
+                <div class="repo-footer-item"><span class="lang-dot" style="background:#F7DF1E;"></span><span>JavaScript</span></div>
+                <div class="repo-footer-item"><span>&star; 14</span></div>
+                <div class="repo-footer-item"><span>&#9432; 3</span></div>
+              </div>
+            </div>
+
+            <div class="clean-repo-card">
+              <div class="repo-card-top">
+                <a href="https://github.com/sanjai-sanjai/first-version" target="_blank" rel="noopener" class="repo-title-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                  <span>first-version (INAI Connect)</span>
+                </a>
+                <span class="repo-privacy-pill">Figma &amp; Web</span>
+              </div>
+              <p>Accessibility-focused multi-modal platform integrating real-time speech-to-text waveforms, sign language translation, and emergency navigation.</p>
+              <div class="repo-card-footer">
+                <div class="repo-footer-item"><span class="lang-dot" style="background:#38BDF8;"></span><span>React / PWA</span></div>
+                <div class="repo-footer-item"><span>&star; 31</span></div>
+                <div class="repo-footer-item"><span>&#9432; 9</span></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION TIMELINE -->
+    <section class="section-padding experience-section" id="experience">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">05 &middot; Experience</div>
+          <h2 class="section-title">Where Rigor Meets Execution</h2>
+          <p class="section-desc">
+            Production AI system deployments, startup frontend scalability, and rigorous engineering foundations.
+          </p>
+        </div>
+
+        <div class="clean-timeline">
+
+          <div class="timeline-entry">
+            <div class="timeline-entry-node"></div>
+            <div class="entry-period">Mar 2026 &mdash; Jun 2026</div>
+            <h3 class="entry-title">Artificial Intelligence System Developer</h3>
+            <p class="entry-org">Cube AI Solutions Pvt Ltd &middot; Coimbatore, India</p>
+            <ul class="entry-bullets">
+              <li>Engineered AI-powered industrial monitoring solutions for the paper industry, improving system monitoring efficiency by 15%.</li>
+              <li>Designed Industry 4.0 automation workflows across 3 key plant processes and formulated predictive logic that reduced manual oversight by 20%.</li>
+              <li>Architected sensor data ingestion pipelines for vibration and temperature telemetry to provide early equipment failure warnings.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="timeline-entry-node"></div>
+            <div class="entry-period">Jan 2025 &mdash; Feb 2026</div>
+            <h3 class="entry-title">Frontend Developer</h3>
+            <p class="entry-org">TGP Global Trade &middot; Remote Startup</p>
+            <ul class="entry-bullets">
+              <li>Built responsive web interfaces supporting 500+ daily user interactions in a fast-paced, high-growth startup environment.</li>
+              <li>Led platform UI improvements, reducing average page load time by 30% and significantly boosting overall user retention.</li>
+              <li>Collaborated across engineering and product to ship trade-document validation and compliance checking workflows.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="timeline-entry-node"></div>
+            <div class="entry-period">2024 &mdash; 2028 (Expected)</div>
+            <h3 class="entry-title">B.E. Mechatronics Engineering</h3>
+            <p class="entry-org">Sri Krishna College of Engineering &amp; Technology &middot; Coimbatore, Tamil Nadu</p>
+            <ul class="entry-bullets">
+              <li>Specializing in cyber-physical systems, industrial robotics, sensor integration, embedded programming, and modern software architectures.</li>
+              <li>Competitor in collegiate hackathons, winning 1st Prize in the 24-hour AI Innovation Hackathon.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX -->
+    <section class="section-padding skills-section" id="skills">
+      <div class="container">
+        <div class="section-head center">
+          <div class="badge-pill">06 &middot; Skills &amp; Arsenal</div>
+          <h2 class="section-title">Technical Capabilities</h2>
+          <p class="section-desc">
+            A versatile toolkit spanning UI/UX design systems, modern frontend engineering, and AI automation.
+          </p>
+        </div>
+
+        <div class="skills-neat-grid">
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&#10024;</span>
+              <h4>UI/UX &amp; Product Design</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat">Figma</span>
+              <span class="skill-tag-neat">Design Systems</span>
+              <span class="skill-tag-neat">Auto-Layout 5.0</span>
+              <span class="skill-tag-neat">Wireframing</span>
+              <span class="skill-tag-neat">Prototyping</span>
+              <span class="skill-tag-neat">User Flows</span>
+              <span class="skill-tag-neat">WCAG AAA</span>
+            </div>
+          </div>
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&lt;/&gt;</span>
+              <h4>Frontend Engineering</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat">React</span>
+              <span class="skill-tag-neat">TypeScript</span>
+              <span class="skill-tag-neat">JavaScript</span>
+              <span class="skill-tag-neat">Vite</span>
+              <span class="skill-tag-neat">Tailwind CSS</span>
+              <span class="skill-tag-neat">Semantic HTML5</span>
+              <span class="skill-tag-neat">PWA</span>
+            </div>
+          </div>
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&#129302;</span>
+              <h4>AI &amp; Backend Systems</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat">Python</span>
+              <span class="skill-tag-neat">TensorFlow</span>
+              <span class="skill-tag-neat">RESTful APIs</span>
+              <span class="skill-tag-neat">Supabase</span>
+              <span class="skill-tag-neat">Firebase</span>
+              <span class="skill-tag-neat">SQL &amp; DBMS</span>
+              <span class="skill-tag-neat">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&#9881;</span>
+              <h4>Mechatronics &amp; IoT</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat">C / C++</span>
+              <span class="skill-tag-neat">Embedded Logic</span>
+              <span class="skill-tag-neat">Sensor Telemetry</span>
+              <span class="skill-tag-neat">Industry 4.0</span>
+              <span class="skill-tag-neat">Automation Logic</span>
+              <span class="skill-tag-neat">Data Structures</span>
+            </div>
+          </div>
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&#128736;</span>
+              <h4>Developer Tooling</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat">Git &amp; GitHub</span>
+              <span class="skill-tag-neat">Vercel &amp; Netlify</span>
+              <span class="skill-tag-neat">CI/CD Pipelines</span>
+              <span class="skill-tag-neat">Chrome DevTools</span>
+              <span class="skill-tag-neat">VS Code</span>
+            </div>
+          </div>
+
+          <div class="skills-neat-card">
+            <div class="skills-neat-head">
+              <span style="font-size:1.2rem;">&#127942;</span>
+              <h4>Honors &amp; Recognition</h4>
+            </div>
+            <div class="skills-tags-cluster">
+              <span class="skill-tag-neat special">1st Prize &middot; 24h Hackathon</span>
+              <span class="skill-tag-neat special">First Prize &middot; AI Hackathon '26</span>
+              <span class="skill-tag-neat">Best Innovation Award</span>
+              <span class="skill-tag-neat">500+ DAU Startup Lead</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & CONNECT SECTION -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="container">
+        <div class="contact-neat-block">
+          <div>
+            <div class="badge-pill">07 &middot; Connect</div>
+            <h2 class="section-title">Let's Design &amp; Build Something Great.</h2>
+            <p class="section-desc" style="margin-bottom: 20px;">
+              Whether you are looking for an intuitive product designer, a full-stack developer with systems-level thinking, or an AI collaborator &mdash; my inbox is open.
+            </p>
+
+            <div class="contact-direct-links">
+              <button class="direct-link-card" onclick="copyEmail()" style="cursor:pointer; text-align:left; width:100%;">
+                <div class="direct-link-left">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>sanjairagunath7@gmail.com</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:0.75rem;color:var(--accent-cyan);">Copy Email &rarr;</span>
+              </button>
+
+              <a href="tel:+917810044095" class="direct-link-card">
+                <div class="direct-link-left">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>+91 78100 44095</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);">Direct Call &rarr;</span>
+              </a>
+
+              <a href="https://linkedin.com/in/sanjai-innovator" target="_blank" rel="noopener" class="direct-link-card">
+                <div class="direct-link-left">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <span>linkedin.com/in/sanjai-innovator</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);">Connect &rarr;</span>
+              </a>
+
+              <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener" class="direct-link-card">
+                <div class="direct-link-left">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>github.com/sanjai-sanjai</span>
+                </div>
+                <span style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);">Follow &rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Clean Message Form -->
+          <form class="clean-form" id="contactForm">
+            <h4 style="font-size:1.1rem; font-weight:700; margin-bottom:2px;">Transmit a Message</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:6px;">Direct dispatch to Sanjai Ragunath</p>
+
+            <input type="text" class="clean-input" placeholder="Your Name" required>
+            <input type="email" class="clean-input" placeholder="Your Email (name@company.com)" required>
+            <textarea class="clean-textarea" placeholder="Project details, role scope, or collaboration idea..." required></textarea>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;">
+              <span>Transmit Message</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="clean-footer">
+    <div class="container footer-row">
+      <div>
+        <strong>Sanjai Ragunath</strong> &middot; UI/UX Designer &amp; Mechatronics Engineer &middot; Coimbatore, India
+      </div>
+      <div class="footer-links-group">
+        <a href="https://github.com/sanjai-sanjai" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/sanjai-innovator" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sanjairagunath7@gmail.com">Email</a>
+        <a href="#top">&uarr; Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIVE MODAL -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <span id="modalUrlText" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--accent-cyan);">preview</span>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <a id="modalExternalLink" href="#" target="_blank" rel="noopener" style="font-size:0.75rem;font-family:var(--font-mono);color:var(--text-secondary);">Open Window &rarr;</a>
+          <button id="modalClose" style="background:none;border:none;color:var(--text-primary);font-size:1.3rem;cursor:pointer;">&times;</button>
+        </div>
+      </div>
+      <iframe class="modal-frame" id="modalFrame" src="about:blank"></iframe>
+    </div>
+  </div>
+
+  <!-- TOAST BAR -->
+  <div class="toast-bar" id="toastBar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--accent-cyan);"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span class="toast-text">Email copied to clipboard!</span>
+  </div>
+
+  <script src="js/script.js?v=4"></script>
+</body>
+</html>
