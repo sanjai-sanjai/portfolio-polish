@@ -378,5 +378,91 @@
 
   initCounters();
 
+  // --- Animated Interactive Cursor Engine ---
+  const cursorDot = document.getElementById('cursorDot');
+  const cursorRing = document.getElementById('cursorRing');
+
+  if (cursorDot && cursorRing && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    let mouseX = -100;
+    let mouseY = -100;
+    let ringX = -100;
+    let ringY = -100;
+    let isVisible = false;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+
+      if (!isVisible) {
+        isVisible = true;
+        cursorDot.style.opacity = '1';
+        cursorRing.style.opacity = '1';
+        ringX = mouseX;
+        ringY = mouseY;
+      }
+
+      cursorDot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
+    });
+
+    document.addEventListener('mouseleave', () => {
+      isVisible = false;
+      cursorDot.style.opacity = '0';
+      cursorRing.style.opacity = '0';
+    });
+
+    document.addEventListener('mouseenter', () => {
+      isVisible = true;
+      cursorDot.style.opacity = '1';
+      cursorRing.style.opacity = '1';
+    });
+
+    // High performance RAF loop with smooth lerping lag
+    function renderCursor() {
+      // 0.18 gives a snappy yet fluid trailing elastic motion
+      ringX += (mouseX - ringX) * 0.18;
+      ringY += (mouseY - ringY) * 0.18;
+
+      cursorRing.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`;
+      requestAnimationFrame(renderCursor);
+    }
+    requestAnimationFrame(renderCursor);
+
+    // Interactive element hover detection
+    const interactiveSelectors = 'a, button, .btn, .filter-tab, .method-step-item, .clean-repo-card, .metric-subcard, .social-pill, .direct-link-card, input, textarea, .brand-badge';
+
+    document.addEventListener('mouseover', (e) => {
+      if (e.target.closest(interactiveSelectors)) {
+        cursorRing.classList.add('cursor-hover');
+        cursorDot.classList.add('cursor-hover');
+      }
+    });
+
+    document.addEventListener('mouseout', (e) => {
+      if (e.target.closest(interactiveSelectors)) {
+        cursorRing.classList.remove('cursor-hover');
+        cursorDot.classList.remove('cursor-hover');
+      }
+    });
+
+    // Click micro-reactions & expanding ripple
+    document.addEventListener('mousedown', () => {
+      cursorRing.classList.add('cursor-active');
+    });
+
+    document.addEventListener('mouseup', () => {
+      cursorRing.classList.remove('cursor-active');
+    });
+
+    document.addEventListener('click', (e) => {
+      const ripple = document.createElement('div');
+      ripple.className = 'cursor-click-ripple';
+      ripple.style.left = e.clientX + 'px';
+      ripple.style.top = e.clientY + 'px';
+      document.body.appendChild(ripple);
+      setTimeout(() => ripple.remove(), 600);
+    });
+  }
+
 })();
+
 
