@@ -1,0 +1,9 @@
+{
+  "name": "sanjai-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanjai Ragunath — UI/UX Designer & Full-Stack AI Developer Portfolio",
+  "scripts": {
+    "build": "echo 'Static portfolio ready for deployment'"
+  }
+}
